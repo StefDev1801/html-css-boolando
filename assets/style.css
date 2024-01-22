@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    border: 1px solid black;
+}
+:root{
+    --booleando-header:#ff6900;
+    --booleando-footer:#1a1a1a;
+}
+
+.width{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: var(--booleando-header);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+/* #region header*/
+.container_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.img-logo{
+    height: 25px;
+}
+/* #endregion */
+
+/* #region main*/
+
+/* #endregion */
+
+/* #region footer */
+/* #endregion */
