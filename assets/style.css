@@ -37,8 +37,13 @@ main{
 /* #endregion */
 
 /* #region main*/
-.garment.debug{
-
+.container_main{
+    position: absolute;
+}
+.garment{
+    position: relative;
+    width: 100px;
+    height: 100px;
 }
 /* #endregion */
 
