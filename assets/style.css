@@ -18,6 +18,11 @@ header{
 ul{
     display: flex;
     list-style: none;
+    justify-content: flex-end;
+}
+main{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 /* #region header*/
 .container_header{
@@ -32,7 +37,9 @@ ul{
 /* #endregion */
 
 /* #region main*/
+.garment.debug{
 
+}
 /* #endregion */
 
 /* #region footer */
